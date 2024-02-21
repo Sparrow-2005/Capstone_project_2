@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85,85,85);
+}
+/*NAV*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:17vh;
+    font-size: 1.75rem;
+    font-weight: 700;
+  
+}
+nav ul{
+    list-style-type:none;
+    display: flex;
+    
+}
+.nav-links{
+    gap:2rem;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: rgb(87, 87, 87);
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(147, 147, 147);
+}
+#myphoto{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+}
+#general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:83vh;
+    gap:270px;
+    padding-top:0;
+    
+}
+#content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#hello{
+    font-size: 2rem;
+}
+#general h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#general h2{
+    font-size:30px;
+    font-weight:500;
+    color: rgb(68, 68, 68);
+}
+#one{
+    padding: 15px;
+    border: 3px solid black;
+    border-color: black;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+#two{
+    padding: 20px;
+    border-radius:50px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-weight: 600;
+}
+#function{
+    display: flex;
+    gap: 2rem;
+    padding-top: 10px;
+}
+#svg{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 2.5em;
+    
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#about p{
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    font-weight:lighter;
+}
+#about h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+#black{
+    height: 450px;
+    width:400px;
+    border-radius: 50px;
+}
+#content1{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#content2{
+    padding-left: 0;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about2{
+    width: 300px;
+}
+#exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(131, 131, 131);
+    border-radius: 30px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#exp h1{
+    font-weight: 800;
+}
+#exp h2{
+    font-size:20px;
+    font-weight: 500;
+    color:rgb(68, 68, 68);
+}
+#medal{
+    font-size: 1.5em;
+}
+#about1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(131, 131, 131);
+    border-radius: 30px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#education h1{
+    font-weight: 800;
+}
+#education h2{
+    font-size:20px;
+    font-weight: 500;
+    color:rgb(68, 68, 68);
+}
+#cap{
+    font-size: 1.5em;
+}
+#intro{
+    font-size: 20px;
+    font-weight: 400;
+    text-align:left;
+    padding-left: 25px;
+}
+#Skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+#Skills p{
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    font-weight:lighter;
+    text-align: center;
+}
+#Skills h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+#skill2{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+#front{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid grey;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width:400px;
+}
+#Back{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid grey;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width:400px;
+}
+.col{
+    display: flex;
+    gap: 4rem;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 5rem;
+    text-align: left;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 5rem;
+    text-align: left;
+}
+.tick{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.tick1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    gap: 1rem;
+}
+#projects{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#p0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#projects p{
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    font-weight:lighter;
+    text-align: center;
+}
+#projects h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+#p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.p2{
+    border: 3px solid gray;
+    border-radius: 20px;
+    padding: 50px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.p3{
+    height: 200px;
+    width:300px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.p4{
+    font-size:2rem;
+}
+.p5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+.p6{
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 120px;
+    height: 50px;
+}
+.p6:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin-top: 80px;
+    padding: 30px;
+    border: 3px solid gray;
+    border-radius: 60px;
+    font-size:20px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+#contact p{
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    font-weight:lighter;
+    text-align: center;
+}
+#contact h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+#final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+    font-weight:10;
+    gap: 0.5rem;
+
+}
+
+#contact ul{
+    padding-top: 7rem;
+    display: flex;
+    list-style-type: none;
+    font-size: 27px;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
